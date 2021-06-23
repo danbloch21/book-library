@@ -1,29 +1,35 @@
-# Next.js + Tailwind CSS Example
+## iamfreecodecamp
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) (v2.1) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
 
-## Preview
+### Intro to React (Live Coding Exercise)
+---
+### Story
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+We want to create a book library app
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+1. add books to the library
+1. remove books from the library
+1. mark books "as read"
+1. expand a bit and add functionality to create x libraries.
 
-## Deploy your own
+A book is defined by:
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+1. id
+1. title (String)
+1. author (String)
+1. read (Boolean)
+1. section ["Fiction", "Non Fiction", "Magazines"]
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+---
 
-## How to use
+Things that can be done in the future: 
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+1. Use a npm package to generate ids when you add a book.
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+   This one is a good bet: [uuid](https://www.npmjs.com/package/uuid?activeTab=readme)
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+3. Display books in a per section basis ❣️
+4. Use localStorage to persist state so that the user can close browser, open browser and get the latest state. This will make you learn the localStorage API (Find information in MDN about it) 🧠 
+5. Tweak and improve style of the app (explore Tailwind) 🌈
+6. Use Google Firebase to persist library data. (to infinity and beyond 🦄)
