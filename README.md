@@ -28,8 +28,9 @@ Things that can be done in the future:
 1. Use a npm package to generate ids when you add a book.
 
    This one is a good bet: [uuid](https://www.npmjs.com/package/uuid?activeTab=readme)
-
-3. Display books in a per section basis ❣️
-4. Use localStorage to persist state so that the user can close browser, open browser and get the latest state. This will make you learn the localStorage API (Find information in MDN about it) 🧠 
-5. Tweak and improve style of the app (explore Tailwind) 🌈
+1. Display an input dropdown with pre-existing sections: ['fiction', 'non fiction', 'magazines]
+2. Allow the creation of more sections
+3. Display books in a per section basis
+4. Use localStorage to persist state so that the user can close browser, open browser and get the latest state. This will make you learn the localStorage API (Find information in MDN about it)
+5. Tweak and improve style of the app (explore Tailwind)
 6. Use Google Firebase to persist library data. (to infinity and beyond 🦄)
